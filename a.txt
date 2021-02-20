@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, see:
+      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+  Some notes:
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+      * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+
+  <meta name="theme-color" content="#007aff">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>EonHub</title>
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="assets/icons/icon.png">
+  <link rel="icon" href="assets/icons/icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <script>(function(d,z,s){s.src='//'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('in-page-push.com',3820742,document.createElement('script'))</script>
+  <script type="text/javascript" src="//luvaihoo.com/5/3820719" async data-cfasync="false"></script>
+  <script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=3820747"></script>
+  <script src="https://choupsee.com/pfe/current/tag.min.js?z=3820739" data-cfasync="false" async></script>
+  <link rel="stylesheet" href="framework7/framework7-bundle.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+  <style>
+  @font-face {
+    font-family: owo1;
+    src: url(fonts/tabs.ttf);
+  }
+</style>
+</head>
+<body>
+  <div id="app"class="theme-dark">
+    
+    <!-- Views/Tabs container -->
+    <div class="views tabs safe-areas">
+      <!-- Tabbar for switching views-tabs -->
+      <div style="background-color: rgb(40,41,61,0.60);border-top-left-radius:15px;border-top-right-radius:15px;" class="toolbar toolbar-bottom tabbar-labels no-hairline">
+        <div style="padding-top:5px;" class="toolbar-inner">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon f7-icons if-not-md">house_alt_fill</i>
+            <i class="icon material-icons if-md">home</i>
+          </a><!--
+          <a href="#view-catalog" class="tab-link">
+            <i class="icon f7-icons if-not-md">search</i>
+            <i class="icon material-icons if-md">view_list</i>
+          </a>-->
+          <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons if-not-md">info_circle_fill</i>
+            <i class="icon material-icons if-md">settings</i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
+      <div id="view-home" class="view view-main view-init tab tab-active">
+        <div class="page" data-name="home">
+          
+        <div style="background-color: rgb(40, 41, 61, 0.8);" class="navbar navbar-large no-hairline">
+            <div style="background-color:#1c1c28;" class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title sliding">EonHub</div>
+              <div class="title-large">
+                <div class="title-large-text">EonHub</div>
+              </div>
+            </div>
+          </div>
+          <!-- Scrollable page content-->
+          <div class="page-content">
+
+          <div class="card">
+            <img class="banner" src="assets/banners/pokemongobanner.png">
+            <div class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/ipogo.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/ipogo.plist" class="external get-btn">GET</a>
+                      <div class="item-title-row">
+                        <div class="item-title">iPOGO</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">iPOGO Team</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          </div>
+          <center>
+          <div class="row grid">
+                    <div class="col-50"><a href="https://youtube.com/casp9v" class="btn external"><i style="font-size:20px;" class="icon f7-icons if-not-md">logo_google</i><p style="color:#3478fa;font-size:11px;margin-top:5px;margin-bottom:0px;">Subscribe</p></a></div>
+                    <div class="col-50"><a href="https://twitter.com/DevCasp" class="btn external"><i style="font-size:20px;" class="icon f7-icons if-not-md">logo_twitter</i><p style="color:#3478fa;font-size:11px;margin-top:5px;margin-bottom:0px;">Follow</p></a></div>
+                </div>
+                
+
+                <div style="width:80%;margin:10px;">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-6t+ed+2i-1n-4w"
+     data-ad-client="ca-pub-6054091775014869"
+     data-ad-slot="8326509556"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                </div>
+
+                
+              <a class="purple" href="/hacked/">
+              <div style="position:relative;top:0;left:0;">
+                  <img class="iconcat" src="assets/iconpurple.png">
+                  <h2 class="titlecat">Hacked Games</h2>
+                  <p class="subcat">Modded Games</p>
+                  <img class="topleftvector" src="assets/vectors/purple.png">
+              </div>
+              </a>
+              <a class="blue" href="/community/">
+              <div style="position:relative;top:0;left:0;">
+                  <img class="iconcat" src="assets/iconblue.png">
+                  <h2 class="titlecat">Community Apps</h2>
+                  <p class="subcat">From iOS Devs</p>
+                  <img class="topleftvector" src="assets/vectors/blue.png">
+              </div>
+              </a>
+              <a class="orange" href="/tweaked/">
+              <div style="position:relative;top:0;left:0;">
+                  <img class="iconcat" src="assets/iconorange.png">
+                  <h2 class="titlecat">Tweaked Apps</h2>
+                  <p class="subcat">Modded Apps</p>
+                  <img class="topleftvector" src="assets/vectors/orange.png">
+              </div>
+              </a>
+              <a class="green" href="/jailbreak/">
+              <div style="position:relative;top:0;left:0;">
+                  <img class="iconcat" src="assets/icongreen.png">
+                  <h2 class="titlecat">Jailbreak Apps</h2>
+                  <p class="subcat">Get Root Now</p>
+                  <img class="topleftvector" src="assets/vectors/green.png">
+              </div>
+              </a>
+
+              <div style="width:80%;margin:10px;">
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-gw-3+1f-3d+2z"
+     data-ad-client="ca-pub-6054091775014869"
+     data-ad-slot="8170596883"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                </div>
+          </center>
+
+          <div class="slider">
+
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/cercube5pro.plist" class="external">
+          <div class="small-card">
+            <img src="img/cercube.png">
+            <h2>Cercube</h2>
+          </div>
+          </a>
+
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/t-tinder++.plist" class="external">
+          <div class="small-card">
+            <img src="img/tinder.png">
+            <h2>T-Tinder++</h2>
+          </div>
+          </a>
+
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/amongus.plist" class="external">
+          <div class="small-card">
+            <img src="img/amongus.png">
+            <h2>Among Us</h2>
+          </div>
+          </a>
+
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/unc0ver.plist" class="external">
+          <div class="small-card">
+            <img src="img/unc0ver.png">
+            <h2>Unc0ver</h2>
+          </div>
+          </a>
+
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/delta.plist" class="external">
+          <div class="small-card">
+            <img src="img/delta.png">
+            <h2>Delta</h2>
+          </div>
+          </a>
+          </div>
+
+          <div class="card">
+            <div class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/geometrydash.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/gdnoclip.plist" class="external get-btn">GET</a>
+                      <div class="item-title-row">
+                        <div class="item-title">Geometry Dash</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">Rob Top</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          <p style="margin-left:15px;margin-right:15px;margin-top:5px;padding-bottom:15px;">This is a noclip mod for geometry dash so it is impossible to die and you can complete levels to unlock all of the player icons fast!</p>
+          </div>
+
+                        <center>
+                            <div style="width:80%;margin:10px;">
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-ef+6k-30-ac+ty"
+     data-ad-client="ca-pub-6054091775014869"
+     data-ad-slot="2918270208"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                </div>
+                        </center>
+          <div class="slider">
+
+            <div class="img-card">
+              <img class="img-card-banner" src="assets/banners/spotbluebanner.png">
+              <div style="margin-top:0;margin-bottom:0;" class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="img-banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/blue.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-title">Spotify Blue</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">Orange Themes</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          <center>
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/spotifyblue.plist" class="external img-card-btn">GET</a>
+          </center>
+            </div>
+
+            <div class="img-card">
+              <img class="img-card-banner" src="assets/banners/iblurbanner.png">
+              <div style="margin-top:0;margin-bottom:0;" class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="img-banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/iblur.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-title">iBlur</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">CaspD3V</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          <center>
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/iblur.plist" class="external img-card-btn">GET</a>
+          </center>
+            </div>
+
+            <div class="img-card">
+              <img class="img-card-banner" src="assets/banners/appinstallerbanner.png">
+              <div style="margin-top:0;margin-bottom:0;" class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="img-banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/appinstaller.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-title">App installer</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">Justin</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          <center>
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/appinstaller.plist" class="external img-card-btn">GET</a>
+          </center>
+            </div>
+
+            <div class="img-card">
+              <img class="img-card-banner" src="assets/banners/odysseybanner.png">
+              <div style="margin-top:0;margin-bottom:0;" class="list media-list no-hairlines-between no-hairlines no-chevron">
+              <ul>
+              <li class="img-banner-li">
+                <div class="item-link item-content">
+                  <div class="item-media"><img class="icon" src="img/odyssey.png"
+                      width="44" /></div>
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-title">Odyssey</div>
+                      </div>
+                      <div style="font-size: 12px;" class="item-subtitle">Odyssey Team</div>
+                    </div>
+                </div>
+                </li>
+              </ul>
+          </div>
+          <center>
+          <a href="itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/odyssey.plist" class="external img-card-btn">GET</a>
+          </center>
+            </div>
+
+            
+          </div>
+          <br><br>
+          </div>
+        </div>
+      </div>
+
+      <!-- Catalog View
+      <div id="view-catalog" class="view view-init tab" data-name="catalog" data-url="/catalog/">
+      Catalog page will be loaded here dynamically from /catalog/ route 
+      </div>-->
+
+      <!-- Settings View -->
+      <div id="view-settings" class="view view-init tab" data-name="settings" data-url="/settings/">
+        <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      </div>
+    </div>
+
+
+    <!-- Popup -->
+    <div class="popup" id="my-popup">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">Popup</div>
+              <div class="right">
+                <a href="#" class="link popup-close">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <p>Popup content goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div class="login-screen" id="my-login-screen">
+      <div class="view">
+        <div class="page">
+          <div class="page-content login-screen-content">
+            <div class="login-screen-title">Login</div>
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Username</div>
+                    <div class="item-input-wrap">
+                      
+                      <input type="text" name="username" placeholder="Your username"/>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Password</div>
+                    <div class="item-input-wrap">
+                      
+                      <input type="password" name="password" placeholder="Your password"/>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <ul>
+                <li>
+                  
+                  <a href="#" class="item-link list-button login-button">Sign In</a>
+                </li>
+              </ul>
+              <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Framework7 library -->
+  <script src="framework7/framework7-bundle.min.js"></script>
+  
+  
+  <!-- App routes -->
+  <script src="js/routes.js"></script>
+  <!-- App store -->
+  <script src="js/store.js"></script>
+  <!-- App scripts -->
+  <script src="js/app.js"></script>
+  <script src="sw.js"></script>
+</body>
+</html>
