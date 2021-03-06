@@ -175,7 +175,7 @@ header {
 }
 
 .ios-version {
-	color: #3A465B;
+	color: #000000;
 }
 
 @keyframes loader-spin {
@@ -403,7 +403,7 @@ div.spinner div.bar12 {
     padding: 10px 15px!important;
     margin-bottom: -1px!important;
     background-color: #ffffff!important;
-    border: 1px solid #3A465B!important;
+    border: 1px solid #000000!important;
     margin-bottom: 10px!important;
     text-align: center!important;
     font-size: 16px;
@@ -411,13 +411,13 @@ div.spinner div.bar12 {
 
 a.list-group-item, button.list-group-item {
   font-weight: bold!important;
-  color: #3A465B!important;
+  color: #000000!important;
 }
 
 a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
     color: #FFF!important;
     text-decoration: none;
-    background-color: #3A465B!important;
+    background-color: #000000!important;
 }
 
 .offerImages {
