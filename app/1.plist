@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pwn20wnd.noncereboot1131UI</string>
+				<string>science.xnu.undecimus.1</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>boot</string>
+				<string>Unc0ver</string>
 			</dict>
 		</dict>
 	</array>
