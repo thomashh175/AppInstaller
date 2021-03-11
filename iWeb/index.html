@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iCloud</title>
+
+        <style type="text/css">
+
+        body {
+          margin: 0px;
+          font-size: 9pt;
+          font-family: Segoe UI, Helvetica;
+        }
+
+        .version {
+          position: fixed;
+          top: 5px;
+          right: 5px;
+          font-size: smaller;
+          color: #c0c0c0;
+        }
+
+        #app {
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          user-select: none;
+
+          cursor: default;
+        }
+
+        button {
+          font-size: 9pt;
+          font-family: Segoe UI, Helvetica;
+          height: 24px;
+        }
+
+        .accountInfo {
+          margin-top: 20px;
+        }
+
+        .accountInfoFullName {
+          font-weight: bold;
+          text-align: center;
+          max-width: 100px;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+
+        .accountInfoAppleId {
+          text-align: center;
+          text-overflow: ellipsis;
+          max-width: 100px;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+
+        .secondaryButtons {
+          margin-bottom: 10px;
+        }
+
+        .secondaryButtonsLeft {
+          float: left;
+          width: 225px;
+          margin-left: 25px;
+        }
+
+        .accountDetailsButton {
+          margin-bottom: 10px;
+        }
+
+        .secondaryButtonsRight {
+          float: right;
+          margin-right: 20px;
+        }
+
+        .logo {
+        }
+
+        .buttons {
+        	padding: 20px;
+          background-color: #eeeeee;
+          border-top: 1px solid #d8d8d8;
+        }
+
+        .buttons button {
+          margin-left: 5px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .content{
+        	display: flex;
+        	width: 100%;
+        }
+
+        .leftpane {
+          margin-left: 40px;
+          margin-right: 20px;
+        	background-color: #fff;
+          padding-top: 20px;
+        }
+
+        .rightpane {
+        	flex-grow: 1;
+        	background-color: #fff;
+          padding: 20px;
+        }
+
+        .buttonBarLeftButtons {
+          float: left;
+        }
+        .buttonBarRightButtons {
+          float: right;
+        }
+        .clearDiv {
+          clear: both;
+        }
+
+          .services-checkbox {
+            padding-top: 15px;
+            display: inline-block;
+          }
+          .services-checkbox input {
+            display: inline-block;
+          }
+
+          .services-icon {
+            padding-top: 9px;
+            padding-left: 4px;
+            display: inline-block;
+          }
+          .services-icon img {
+            display: inline-block;
+          }
+
+          .services-icon.disabled {
+            opacity: 0.5;
+          }
+
+          .services-list {
+            list-style: none;
+            border-left: 1px solid #d8d8d8;
+            border-right: 1px solid #d8d8d8;
+            border-top: 1px solid #d8d8d8;
+            padding: 0;
+            margin-bottom: 0px;
+            margin-top: 0px;
+          }
+
+          .services-list-item {
+            height: 48px;
+            border-bottom: 1px solid #d8d8d8;
+            padding-left: 10px;
+          }
+
+          .services-list-item input {
+            padding-left: 10px;
+            border: 1px solid red;
+          }
+
+          .services-list-item-label {
+            padding-top: 15px;
+            padding-left: 5px;
+            font-size: 10pt;
+            display: inline-block;
+          }
+
+          .services-list-item-label.disabled {
+            color: GrayText;
+          }
+
+          .services-list-item-label-with-client {
+            padding-top: 7px;
+            padding-left: 5px;
+            font-size: 10pt;
+            display: inline-block;
+          }
+
+          .services-list-item-label-with-client.disabled {
+            color: GrayText;
+          }
+
+          .services-list-item-client {
+            font-size: 9pt;
+            padding-left: 5px;
+            color: GrayText;
+          }
+
+          .services-list-item-settingup-label {
+            font-size: 9pt;
+            display: inline-block;
+            padding-right: 5px;
+            color: GrayText;
+          }
+
+          .services-list-item-settingup {
+            margin-right: 10px;
+          }
+
+          .services-list-item-left {
+            float: left;
+          }
+
+          .services-list-item-right {
+            float: right;
+            padding-top: 15px;
+          }
+
+          .services-list-item-options {
+            margin-left: 5px;
+            margin-right: 10px;
+          }
+
+          .storage-left {
+            float: left;
+          }
+
+          .storage-right {
+            float: right;
+          }
+
+          .spinner {
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+          }
+
+          .spinner-active {
+            background-image: url(spinner.gif);
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+
+          .storage-container {
+            margin-top: 10px;
+            padding: 10px;
+            border: solid 1px #d8d8d8;
+          }
+
+          .storage-total {
+            padding-bottom: 5px;
+          }
+
+          .storage-lower {
+            padding-top: 5px;
+            display: flex;
+            flex-direction: row;
+
+          }
+
+          .storage-meter {
+            border: solid 1px #d8d8d8;
+            flex: 1;
+            display: flex;
+            vertical-align: bottom;
+            white-space: nowrap;
+          }
+
+          .storage-meter-container {
+            vertical-align: bottom;
+            display: flex;
+          }
+
+          .storage-meter-container button {
+            margin-left: 7px;
+          }
+
+          .storage-meter-segment {
+            padding: 2px;
+            vertical-align: bottom;
+
+            line-height: 1.5em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .storage-meter-segment::before {
+            content: '\00200B';
+            display: inline-block;
+            vertical-align: bottom;
+
+            line-height: 1.5em;
+          }
+
+          .storage-meter-segment-label {
+            vertical-align: bottom;
+            overflow: hidden;
+
+            line-height: 1.5em;
+          }
+
+          .storage-meter-segment-inner {
+            display: inline-block;
+            white-space: nowrap;
+            vertical-align: bottom;
+
+            overflow: hidden;
+            line-height: 1.5em;
+          }
+
+          .storage-tooltip {
+            padding: 5px;
+            position: fixed;
+            float: left;
+            visibility: hidden;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #d8d8d8;
+            box-shadow: 3px 3px 3px #808080;
+          }
+
+          .storage-tooltip-size {
+            color: GrayText;
+          }
+
+          .storage-tooltip-label {
+            color: #000;
+          }
+
+          .notification-list {
+
+          }
+
+          .notification {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #d8d8d8;
+            background-color: #FFFFCD;
+            display: flex;
+          }
+
+          .notification-contents {
+            margin-left: 10px;
+            flex-grow: 1;
+          }
+
+          .notification-top {
+            display: flex;
+            padding-bottom: 5px;
+          }
+
+          .notification-title {
+            flex-grow: 1;
+            font-weight: bold;
+          }
+
+          .notification-close {
+
+          }
+
+          .notification-close button {
+            height: 20px;
+          }
+
+          .icloud-help-link {
+            color: #008ff0;
+            cursor: pointer;
+
+            background: none!important;
+            border: none;
+            padding:0!important;
+            text-decoration: underline;
+          }
+
+          .icloud-help-link:visited {
+            color: #008ff0;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="bundle.js" type="text/javascript"></script>
+    </body>
+</html>
