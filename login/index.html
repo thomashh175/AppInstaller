@@ -32,23 +32,8 @@
 			$row		= mysqli_fetch_array($query);
 			$num_row 	= mysqli_num_rows($query);
 			
-			if ($num_row > 0) 
-				{			
-					$_SESSION['user_id']=$row['user_id'];
-					header('location:home.php');
-					
-				}
-			else
-				{
-					echo 'Invalid Username and Password Combination';
-				}
-		}
-  ?>
-  <div class="reminder">
-    <p>Not a member? <a href="#">Sign up now</a></p>
-    <p><a href="#">Forgot password?</a></p>
-  </div>
-  
+			
+
 </div>
 
 </body>
