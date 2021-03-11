@@ -1,0 +1,31 @@
+Hacked Apps 
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/ipogo.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/amongus.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/8ballpool.plist
+
+local Apps 
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/delta.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/lightningsign.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/appinstaller.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/plankfilza.plist
+
+Tweaked Apps 
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/spotifyblue.plist
+
+Jailebreak Apps
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/odyssey.plist
+
+itms-services://?action=download-manifest&url=https://eonhubapp.com/free/plists/unc0ver.plist
+
+
+
+
