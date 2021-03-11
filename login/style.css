@@ -31,7 +31,7 @@ h3{
   font-size: 25px;
   font-weight: 640;
   margin-bottom: 10px;
-  color: #e7e7e7;
+  color: #000000;
   padding:6px;
   font-family:'sans-serif','helvetica';
 }
@@ -63,7 +63,7 @@ input[type='text']{
 
 .form-item input:focus {
   outline: none;
-  border:1.4px solid #cfecf0;
+  border:1.4px solid #000000;
 }
 
 .button-panel {
@@ -73,7 +73,7 @@ input[type='text']{
 }
 
 .button-panel .button {
-  background: #00b6df;
+  background: #000000;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -88,7 +88,7 @@ input[type='text']{
 }
 
 .button:hover {
-  background: #6eb7cb;
+  background: #000000;
 }
 
 .form-item input, .button-panel .button {
@@ -106,5 +106,5 @@ input[type='text']{
 }
 
 .reminder a:hover {
-  color: #cab6bf;
+  color: #000000;
 }
