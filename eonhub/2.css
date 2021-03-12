@@ -1,13 +1,13 @@
 /* Your app custom styles here */
 .page-content {
-  background-color: #1c1c28;
+  background-color: #e0e5ec;
 }
 .tabbar-labels {
-  background-color: rgb(40, 41, 61, 0.8);
+  background-color: #000;
 }
 
 .navbar-bg {
-  background-color: rgb(40, 41, 61, 0.8);
+  background-color: #000;
 }
 
 .banner {
@@ -16,7 +16,7 @@
 }
 
 .banner-li {
-  background-color: rgb(40, 41, 61, 1);
+  background-color: #e0e5ec;
   border-radius: 15px;
 }
 
@@ -36,14 +36,14 @@
 .get-btn {
   width: 55px;
   padding: 6px;
-  background-color: #000;
+  background-color: #e0e5ec;
   border-radius: 18px;
   display: block;
   float: right;
   text-align: center;
   font-size: 13px;
   font-weight: 700;
-  color: #3478fa;
+  color: #000;
   margin-top: 6px;
 }
 
@@ -88,7 +88,7 @@
 
 .blue {
   width: 90%;
-  background: #197bbd;
+  background: #e0e5ec;
   height: 120px;
   border-radius: 15px;
   display: block;
@@ -164,7 +164,7 @@
   width: 136px;
   height: 177px;
   border-radius: 15px;
-  background-color: #28293d;
+  background-color: #e0e5ec;
   margin: 10px;
   display: block;
   text-align: center;
@@ -184,7 +184,7 @@
 
 
 .info-top {
-  background-color: #1e61e2;
+  background-color: #e0e5ec;
   width: 100%;
   padding-bottom: 20px;
 }
@@ -210,7 +210,7 @@
 }
 
 .normal-li {
-  background-color: #1c1c28;
+  background-color: #e0e5ec;
 }
 
 
@@ -240,7 +240,7 @@
 .about-info p {
   font-size: 16px;
   font-weight: 400;
-  color: #777;
+  color: #e0e5ec;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -250,7 +250,7 @@
   width: 80%;
   padding: 8px;
   border-radius: 15px;
-  background-color: #28293d;
+  background-color: #000;
 }
 
 .grid {
