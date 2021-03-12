@@ -9,16 +9,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: #3a3a3a;
+  background-color: #FFFFFF;
 }
 
 #main-holder {
   width: 50%;
-  height: 70%;
+  height: 40%;
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: black;
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px black;
 }
