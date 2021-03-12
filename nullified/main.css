@@ -6,8 +6,8 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #28293d;
-  color: #000;
+  background-color: #e0e5ec;
+  color: #e0e5ec;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #FFFFFF;
+  background-color: #e0e5ec;
 }
 
 .header img {
@@ -89,7 +89,7 @@ a {
   width: 80%;
   padding: 20px;
   border-radius: 5px;
-  background-color: #000000;
+  background-color: #FFFFFF;
   display: block;
   font-weight: 400;
   text-decoration: none;
