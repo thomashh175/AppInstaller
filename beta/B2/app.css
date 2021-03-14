@@ -15,17 +15,17 @@ html {
 }
 
 .banner {
-  width: 100%;
+  width: 50%;
   border-radius: 15px;
 }
 
 .banner-li {
   background-color: #F2F7FF;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .card {
-  border-radius: 15px;
+  border-radius: 12px;
   background-color: #F2F7FF;
 }
 
@@ -34,14 +34,14 @@ html {
 }
 
 .item-subtitle {
-  font-size: 12px;
+  font-size: 5px;
 }
 
 .get-btn {
-  width: 55px;
-  padding: 6px;
+  width: 50px;
+  padding: 4px;
   background-color: #000;
-  border-radius: 10px;
+  border-radius: 50px;
   display: block;
   float: right;
   text-align: center;
@@ -121,8 +121,8 @@ html {
 
 .small-card {
   flex-shrink: 0;
-  width: 136px;
-  height: 177px;
+  width: 130px;
+  height: 130px;
   border-radius: 15px;
   background-color: #F2F7FF;
   margin: 10px;
@@ -140,7 +140,7 @@ html {
   color: #000;
 }
 
-.img-card {
+. img-card {
   flex-shrink: 0;
   width: 180px;
   height: 220px;
