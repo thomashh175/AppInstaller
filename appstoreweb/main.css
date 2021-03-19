@@ -1,0 +1,96 @@
+* {
+  font-family: helvetica;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e0e5ec;
+  color: #e0e5ec;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e0e5ec;
+}
+
+.header img {
+  width: 100px;
+  border-radius: 23.3%;
+  margin: 10px;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.header a {
+  margin: 10px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #1C82E7;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.card {
+  width: 90%;
+  max-width: 350px;
+  padding-bottom: 20px;
+  background-color: #000;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.card h1 {
+  font-size: 25px;
+  text-align: justify;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  opacity: 0.6;
+  margin: 10px;
+  text-align: justify;
+}
+
+.card a {
+  margin: 10px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #000;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+}
