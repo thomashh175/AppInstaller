@@ -12,7 +12,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #1C82E7;
 }
 
 .header {
@@ -47,7 +47,7 @@ a {
   width: 200px;
   padding: 20px;
   border-radius: 30px;
-  background-color: #000;
+  background-color: #F2F7FF;
   display: block;
   font-weight: 400;
   text-decoration: none;
@@ -89,7 +89,7 @@ a {
   width: 80%;
   padding: 20px;
   border-radius: 5px;
-  background-color: #000000;
+  background-color: #FFFFFF;
   display: block;
   font-weight: 400;
   text-decoration: none;
