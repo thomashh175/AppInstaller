@@ -7,7 +7,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #e0e5ec;
-  color: #000;
+  color: #515D69;
 }
 
 a {
@@ -57,7 +57,7 @@ a {
   width: 90%;
   max-width: 350px;
   padding-bottom: 20px;
-  background-color: #FFFFFF;
+  background-color: #F2F7FF;
   margin: 20px;
   border-radius: 5px;
   display: inline-block;
