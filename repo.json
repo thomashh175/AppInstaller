@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Unc0ver",
+        "subtitle": "Jailbreak Apps",
+        "icon": "https://metric.installerpro.app/img/unc0ver.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/unc0ver.plist"
+    },
+    {
+        "title": "Taurine",
+        "subtitle": "Jailbreak Apps",
+        "icon": "https://metric.installerpro.app/img/taurine.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/taurine.plist"
+    },
+    {
+        "title": "Odyssey",
+        "subtitle": "Jailbreak Apps",
+        "icon": "https://metric.installerpro.app/img/odyssey.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/odyssey.plist"
+    },
+    {
+        "title": "Chimera",
+        "subtitle": "Jailbreak Apps",
+        "icon": "https://metric.installerpro.app/img/chimera.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/chimera.plist"
+    },
+    {
+        "title": "Electra",
+        "subtitle": "Jailbreak Apps",
+        "icon": "https://metric.installerpro.app/img/electra.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/electra.plist"
+    },
+    {
+        "title": "Spotify",
+        "subtitle": "Tweaked Apps",
+        "icon": "https://metric.installerpro.app/img/spot.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/Spot.plist"
+    },
+    {
+        "title": "Pandora",
+        "subtitle": "Tweaked Apps",
+        "icon": "https://metric.installerpro.app/img/pandora.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/Pandora.plist"
+    },
+    {
+        "title": "PicsArt",
+        "subtitle": "Tweaked Apps",
+        "icon": "https://metric.installerpro.app/img/art.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/PicsArt.plist"
+    },
+    {
+        "title": "YouTubeMusic",
+        "subtitle": "Tweaked Apps",
+        "icon": "https://metric.installerpro.app/img/YTM.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/YouTubeMusic.plist"
+    },
+    {
+        "title": "CrunchyRoll",
+        "subtitle": "Tweaked Apps",
+        "icon": "https://metric.installerpro.app/img/roll.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/CrunchyRoll.plist"
+    },
+    {
+        "title": "PPSSPP",
+        "subtitle": "Other Apps",
+        "icon": "https://metric.installerpro.app/img/PPSSPP.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/PPSSPP.plist"
+    },
+    {
+        "title": "Delta",
+        "subtitle": "Other Apps",
+        "icon": "https://metric.installerpro.app/img/Delta.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/Delta.plist"
+    },
+    {
+        "title": "UTM",
+        "subtitle": "Other Apps",
+        "icon": "https://metric.installerpro.app/img/UTM.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/UTM.plist"
+    },
+    {
+        "title": "IPOGO",
+        "subtitle": "Games",
+        "icon": "https://metric.installerpro.app/img/ipogo.png",
+        "url": "itms-services://?action=download-manifest&url=https://metric.installerpro.app/plist/ipogo.plist"
+    }
+    
+]
